@@ -15,7 +15,7 @@ st.markdown('### Search for meanings of English words')
 
 # Include a brief introduction
 st.markdown('''
-    This app allows you to search for the meanings of English words. Enter a word in the search box and click 'Search for Meaning' to get definitions.
+    This app allows you to search for the meanings of English words. Enter a word in the search box and click 'Search' to get Meanings/definitions.
     ''')
 def fetch_meaning(word):
     url=f'https://api.dictionaryapi.dev/api/v2/entries/en/{word}'
